@@ -20,7 +20,7 @@ export default function DekocanvasLanding() {
     <>
 <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
   {/* Franja de promoción */}
-  <div className="bg-fuchsia-600 text-white text-sm text-center py-2 px-4 font-medium">
+  <div className="bg-[#BA007C] text-white text-sm text-center py-2 px-4 font-medium">
     🎉 Promoción: 10% de descuento en tu primer pedido •{" "}
     <a
       href="https://wa.me/50760524116"
@@ -39,8 +39,8 @@ export default function DekocanvasLanding() {
       <Image
         src="/images/dekocanvaslogo.jpeg"
         alt="Dekocanvas Logo"
-        width={40}
-        height={40}
+        width={160}
+        height={160}
         className="rounded-full"
       />
       
@@ -73,8 +73,8 @@ export default function DekocanvasLanding() {
               </Badge>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Dale Identidad a cada
-                <span className="text-fuchsia-600"> espacio</span> en tu
-                <span className="text-fuchsia-600"> oficina</span>
+                <span className="text-[#BA007C]"> espacio</span> en tu
+                <span className="text-[#BA007C]"> oficina</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Más que decoración: comunicación estratégica. Espacios corporativos, regalos personalizados y reconocimientos que refuerzan tu cultura empresarial
@@ -82,7 +82,7 @@ export default function DekocanvasLanding() {
               <Button
   asChild
   size="lg"
-  className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+  className="bg-[#BA007C] hover:bg-[#a0006d] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
 >
   <a href="https://wa.me/50760524116" target="_blank" rel="noopener noreferrer">
     <MessageCircle className="mr-2 h-5 w-5" />
@@ -292,9 +292,7 @@ export default function DekocanvasLanding() {
     </div>
   </div>
 </section>
-
-
-<section className="py-16 bg-gradient-to-r from-fuchsia-600 to-fuchsia-700">
+<section className="py-16 bg-gradient-to-r from-[#BA007C] to-[#a0006d]">
   <div className="container mx-auto px-4 text-center">
     <div className="max-w-3xl mx-auto space-y-6">
       <h2 className="text-3xl lg:text-5xl font-bold text-white">
@@ -365,7 +363,7 @@ export default function DekocanvasLanding() {
         <h4 className="text-lg font-semibold">¡Haz tu pedido!</h4>
         <Button
   asChild
-  className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white w-full"
+ className="bg-[#BA007C] hover:bg-[#900065] text-white w-full"
 >
   <a href="https://wa.me/50760524116" target="_blank" rel="noopener noreferrer">
     <MessageCircle className="mr-2 h-4 w-4" />
