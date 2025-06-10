@@ -19,23 +19,9 @@ export default function DekocanvasLanding() {
   return (
     <>
 <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
-  {/* Franja de promoción */}
-  <div className="bg-[#BA007C] text-white text-sm text-center py-2 px-4 font-medium">
-    🎉 Promoción: 10% de descuento en tu primer pedido •{" "}
-    <a
-      href="https://wa.me/50760524116"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="underline hover:text-gray-100"
-    >
-      HAZ TU PEDIDO AHORA
-    </a>
-  </div>
-
-  {/* Navegación principal */}
-  <div className="container mx-auto px-4 py-4 flex items-center justify-between bg-white">
-    {/* Logo */}
-    <div className="flex items-center space-x-2">
+  <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+    {/* Logo e Instagram */}
+    <div className="flex items-center space-x-3">
       <Image
         src="/images/dekocanvaslogo.jpeg"
         alt="Dekocanvas Logo"
@@ -43,21 +29,29 @@ export default function DekocanvasLanding() {
         height={160}
         className="rounded-full"
       />
-      
+    
+      <Link
+        href="https://www.instagram.com/dekocanvaspty/?hl=en"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="border border-[#BA007C] rounded-full p-1 hover:bg-[#BA007C] transition-colors"
+      >
+        <Instagram className="h-5 w-5 text-[#BA007C] hover:text-white" />
+      </Link>
     </div>
 
-    {/* Menú */}
+    {/* Navegación */}
     <nav className="space-x-6 hidden md:block">
-      <a href="#beneficios" className="text-gray-700 hover:text-fuchsia-600 font-medium transition">
+      <a href="#beneficios" className="text-gray-700 hover:text-[#BA007C] font-medium transition">
         Beneficios
       </a>
-      <a href="#galeria" className="text-gray-700 hover:text-fuchsia-600 font-medium transition">
+      <a href="#galeria" className="text-gray-700 hover:text-[#BA007C] font-medium transition">
         Galería
       </a>
-      <a href="#testimonios" className="text-gray-700 hover:text-fuchsia-600 font-medium transition">
+      <a href="#testimonios" className="text-gray-700 hover:text-[#BA007C] font-medium transition">
         Testimonios
       </a>
-      <a href="#contacto" className="text-gray-700 hover:text-fuchsia-600 font-medium transition">
+      <a href="#contacto" className="text-gray-700 hover:text-[#BA007C] font-medium transition">
         Contacto
       </a>
     </nav>
@@ -333,9 +327,14 @@ export default function DekocanvasLanding() {
           Especialistas en impresión personalizada de cuadros canvas. Transformamos tus recuerdos en arte de alta calidad.
         </p>
         <div className="flex space-x-4">
-          <Link href="#" className="text-gray-400 hover:text-fuchsia-400 transition-colors">
-            <Instagram className="h-6 w-6" />
-          </Link>
+          <Link
+  href="https://www.instagram.com/dekocanvaspty/?hl=en"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gray-400 hover:text-fuchsia-400 transition-colors"
+>
+  <Instagram className="h-6 w-6" />
+</Link>
           <Link href="#" className="text-gray-400 hover:text-fuchsia-400 transition-colors">
             <Facebook className="h-6 w-6" />
           </Link>
