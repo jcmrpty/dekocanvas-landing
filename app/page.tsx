@@ -19,6 +19,20 @@ export default function DekocanvasLanding() {
   return (
     <>
 <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
+  {/* Franja promocional */}
+  <div className="bg-[#BA007C] text-white text-sm text-center py-2 px-4 font-medium">
+    🎉 Promoción: 10% de descuento en tu primer pedido •{" "}
+    <a
+      href="https://wa.me/50760524116"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline hover:text-gray-100"
+    >
+      HAZ TU PEDIDO AHORA
+    </a>
+  </div>
+
+  {/* Contenido principal del header */}
   <div className="container mx-auto px-4 py-4 flex items-center justify-between">
     {/* Logo e Instagram */}
     <div className="flex items-center space-x-3">
@@ -29,7 +43,7 @@ export default function DekocanvasLanding() {
         height={160}
         className="rounded-full"
       />
-    
+
       <Link
         href="https://www.instagram.com/dekocanvaspty/?hl=en"
         target="_blank"
@@ -71,7 +85,8 @@ export default function DekocanvasLanding() {
                 <span className="text-[#BA007C]"> oficina</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Más que decoración: comunicación estratégica. Espacios corporativos, regalos personalizados y reconocimientos que refuerzan tu cultura empresarial
+              
+Transforma tus paredes en espacios que inspiran a tu equipo y causan impacto en tus clientes. Arte corporativo personalizado que eleva tu marca y obsequios ejecutivos que fortalecen relaciones estratégicas.
               </p>
               <Button
   asChild
@@ -234,12 +249,12 @@ export default function DekocanvasLanding() {
             <Star className="h-5 w-5 fill-current" />
           </div>
           <p className="text-gray-700 italic">
-            "Quedé impresionada con la calidad del canvas. La imagen se ve nítida y los colores son vibrantes.
+            "Quedé impresionado con la calidad del canvas. La imagen se ve nítida y los colores son vibrantes.
             Definitivamente volveré a pedir más cuadros."
           </p>
           <div className="pt-4 border-t">
-            <p className="font-semibold text-gray-900">María González</p>
-            <p className="text-sm text-gray-600">Cliente satisfecha</p>
+            <p className="font-semibold text-gray-900">Jose Aguilar</p>
+            <p className="text-sm text-gray-600">Grupo Incomar</p>
           </div>
         </CardContent>
       </Card>
@@ -274,12 +289,11 @@ export default function DekocanvasLanding() {
             <Star className="h-5 w-5 fill-current" />
           </div>
           <p className="text-gray-700 italic">
-            "Hice un pedido personalizado para mi sala y el resultado superó mis expectativas. La atención fue
-            personalizada y muy profesional."
+            "Encargamos un canvas de Panamá como regalo para uno de nuestros principales clientes. La calidad es impresionante, colores vibrantes y súper nítido. Nuestro cliente quedó encantado. Definitivamente volveremos a pedir más."
           </p>
           <div className="pt-4 border-t">
-            <p className="font-semibold text-gray-900">Ana Rodríguez</p>
-            <p className="text-sm text-gray-600">Diseñadora de interiores</p>
+            <p className="font-semibold text-gray-900">Ericka Samaniego</p>
+            <p className="text-sm text-gray-600">Biopharma SAS</p>
           </div>
         </CardContent>
       </Card>
