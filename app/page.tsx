@@ -86,7 +86,7 @@ export default function DekocanvasLanding() {
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
               
-Transforma tus paredes en espacios que inspiran a tu equipo y causan impacto en tus clientes. Arte corporativo personalizado que eleva tu marca y obsequios ejecutivos que fortalecen relaciones estratégicas.
+Transforma tus fotos en obras de arte.
               </p>
               <Button
   asChild
