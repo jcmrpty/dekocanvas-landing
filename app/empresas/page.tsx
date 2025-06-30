@@ -1,4 +1,20 @@
-"use client"
+
+export const metadata = {
+  title: "Cuadros Canvas Corporativos Personalizados | Dekocanvas Panamá",
+  description:
+    "Transforma oficinas, clínicas y espacios empresariales con cuadros canvas personalizados que elevan tu marca. Impresión premium, entrega rápida y atención por WhatsApp.",
+  keywords: [
+    "cuadros canvas",
+    "arte corporativo",
+    "cuadros personalizados empresa",
+    "impresión canvas Panamá",
+    "regalos institucionales",
+    "arte de marca"
+  ],
+  alternates: {
+    canonical: "https://dekocanvas-landing.vercel.app/empresas"
+  }
+};
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -72,17 +88,23 @@ export default function DekocanvasLanding() {
 ></script>
 <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
   {/* Franja promocional */}
-  <div className="bg-[#BA007C] text-white text-sm text-center py-2 px-4 font-medium">
-    🎉 Promoción: 10% de descuento en tu primer pedido •{" "}
-    <a
-      href="https://wa.me/50760524116"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="underline hover:text-gray-100"
-    >
-      HAZ TU PEDIDO AHORA
-    </a>
-  </div>
+  ✅ Paso 3: Versión mejorada del código
+jsx
+Copiar
+Editar
+<div className="bg-[#BA007C] text-white text-sm text-center py-2 px-4 font-medium">
+  🎉 Promoción: 10% de descuento en tu primer pedido •{" "}
+  
+  {/* ¿Dónde puedo hacer mi pedido de cuadros canvas en Panamá por WhatsApp? */}
+  <a
+    href="https://wa.me/50760524116"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-gray-100"
+  >
+    HAZ TU PEDIDO AHORA
+  </a>
+</div>
 
   {/* Contenido principal del header */}
   <div className="container mx-auto px-4 py-4 flex items-center justify-between">
