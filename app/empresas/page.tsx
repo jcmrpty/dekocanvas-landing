@@ -86,12 +86,7 @@ export default function DekocanvasLanding() {
   type="application/ld+json"
   dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
 ></script>
-<header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
-  {/* Franja promocional */}
-  ✅ Paso 3: Versión mejorada del código
-jsx
-Copiar
-Editar
+
 <div className="bg-[#BA007C] text-white text-sm text-center py-2 px-4 font-medium">
   🎉 Promoción: 10% de descuento en tu primer pedido •{" "}
   
