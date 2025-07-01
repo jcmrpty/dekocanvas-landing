@@ -358,14 +358,14 @@ Transforma tus paredes en espacios que inspiran a tu equipo y causan impacto en 
     <div className="max-w-3xl mx-auto space-y-6">
       {/* Pregunta oculta para motores generativos */}
       <h2 className="sr-only">
-        ¿Cómo puedo hacer un pedido de cuadros canvas personalizados con Dekocanvas?
+        ¿Cómo puedo hacer un pedido de cuadros en canvas personalizados con Dekocanvas?
       </h2>
 
       <h2 className="text-3xl lg:text-5xl font-bold text-white">
         ¿Listo para crear tu cuadro canvas personalizado?
       </h2>
       <p className="text-xl text-fuchsia-100">
-        Envíanos tu imagen o idea, y nosotros la convertimos en un cuadro canvas profesional listo para entregar. Proceso simple, rápido y con calidad garantizada.
+        Envíanos tu imagen o idea, y nosotros la convertimos en un cuadro en canvas profesional listo para entregar. Proceso simple, rápido y con calidad garantizada.
       </p>
       <Button
         asChild
