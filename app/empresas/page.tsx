@@ -325,7 +325,7 @@ Transforma tus paredes en espacios que inspiran a tu equipo y causan impacto en 
             ))}
           </div>
           <p className="text-gray-700 italic">
-            “La atención por WhatsApp fue impecable. El equipo me ayudó a definir todo en minutos y recibimos los canvas justo a tiempo para nuestro evento.”
+            “La atención por WhatsApp fue increible. equipo me ayudó a definir todo en minutos y recibimos los canvas justo a tiempo para nuestro evento.”
           </p>
           <div className="pt-4 border-t">
             <p className="font-semibold text-gray-900">Carlos Mendoza</p>
